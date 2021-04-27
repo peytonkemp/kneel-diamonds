@@ -1,6 +1,6 @@
 import { getSizes } from "./database.js"
 
-const metals = getSizes()
+const DiamondSizes = getSizes()
 
 document.addEventListener(
     "change",
@@ -15,9 +15,9 @@ export const DiamondSizes = () => {
     let html = "<ul>"
 
     // Use .map() for converting objects to <li> elements
-    const listItems = metals.map(size => {
+    const listItems = DiamondSizes.map(sizes => {
         return `<li>
-            <input type="radio" name="size" value="${size.id}" /> ${size.carets}
+            <input type="radio" name="size" value="${sizes.id}" /> ${sizes.carets}
         </li>`
     })
 
