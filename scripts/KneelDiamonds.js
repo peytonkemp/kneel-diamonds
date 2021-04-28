@@ -1,13 +1,10 @@
+// import { addCustomOrder } from "./database.js"
 import { DiamondSizes } from "./DiamondSizes.js"
 import { JewelryStyles } from "./JewelryStyles.js"
 import { Metals } from "./Metals.js"
 import { Orders } from "./Orders.js"
 
-document.addEventListener(
-    "click",
-    (event) => {
-    }
-)
+
 
 export const KneelDiamonds = () => {
     return `
