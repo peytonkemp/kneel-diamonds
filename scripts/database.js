@@ -34,7 +34,7 @@ const database = {
             timestamp: 1614659931693
         }
     ],
-    orderBuilder: [{}]
+    orderBuilder: {}
 }
 
 export const getStyles = () => {
